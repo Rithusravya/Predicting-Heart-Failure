@@ -121,13 +121,13 @@ Once both models were compared, the Hyperdrive model was chosen to be deployed a
 * The model, inference and deployment configuration was specified, along with the name and deployment location of the web service.
 * Once deployed, the scoring URI was obtained.
 * Data from the endpoint.py script and the scoring URI was used to query the endpoint.
-<img src=".\images\endpoint.jpg">
+<img src="endpoint.jpg">
 
 * Two responses were obtained as a result of the 2 observations sent to the endpoint. Only the first data point is classified as 1 (death from heart failure).
 <img src=".\images\sample response.jpg">
 
 * The logs of the service were obtained.
-<img src=".\images\service logs.jpg">
+<img src="service logs.jpg">
 
 ## Future improvements
 
