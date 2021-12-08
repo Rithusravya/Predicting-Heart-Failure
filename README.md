@@ -23,9 +23,9 @@ As it was mentioned previously, this data is going to be used to predict heart f
 
 ### Access
 For training the AutoML model, I registered the dataset from local files using the Datasets Hub in the Azure ML Studio.
-<br><img src=".\images\Dataset.jpg"><br>
+<br><img src="Dataset.jpg"><br>
 By contrast, I used the following dataset url from github for training the customised model using HyperDrive: https://gist.github.com/Rithusravya/dcf8fcd549eeef03085c2b73019285b5
-<br><img src=".\images\Dataset Exploration.jpg"><br>
+<br><img src="Dataset Exploration.jpg"><br>
 
 ## Automated ML
 In overview, the following were the main settings and parameters used for the AutoML model on the Azure platform:<br>
