@@ -19,7 +19,7 @@ The dataset used to develop both models comes from Kaggle datasets. It deals wit
 
 As it was mentioned previously, this data is going to be used to predict heart failures caused by CVDs, in order to provide an early detection ML model using the 12 clinical variables included in the dataset. A brief summary of these features is the following:
 
-<img src=".\images\Dataset Features.jpg">
+<img src="Dataset Features.jpg">
 
 ### Access
 For training the AutoML model, I registered the dataset from local files using the Datasets Hub in the Azure ML Studio.
