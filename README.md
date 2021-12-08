@@ -7,7 +7,7 @@ The goal of this project is to develop two different ML models using the Azure M
 
 The process flow followed in the project is illustrated below:
 
-<img src=".\images\Project Workflow.jpg">
+<img src=".Project Workflow.jpg">
 
 ## Dataset
 
