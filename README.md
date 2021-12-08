@@ -42,7 +42,7 @@ After running the experiment using AutoML, the best model found was the Voting E
 <br>Best run id: AutoML_ca9f86d7-590e-439a-9ecf-6e3de59abab6_28<br>
 Accuracy: 0.8696610169491524<br>
 <br>The following is a detailed summary of the best parameters found by AutoML:<br>
-<img src=".\images\automl parameters.jpg"> 
+<img src="automl parameters.jpg"> 
 
 * Random State = None. To validate our results over multiple runs this value should remain steady.
 * min_samples_leaf=0.035789473684210524. It specifies the minimum number of samples required to be at a leaf node.
@@ -56,7 +56,7 @@ Accuracy: 0.8696610169491524<br>
 * warm_start=False
 
 ### Metrics
-<img src=".\images\automl metrics.jpg">
+<img src="automl metrics.jpg">
 
 ### AutoML run details
 <img src=".\images\automl details 1.jpg">
