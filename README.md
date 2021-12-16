@@ -64,7 +64,7 @@ Accuracy: 0.8696610169491524<br>
 <img src="automl details 3.jpg">
 
 ### Run details widget
-<img src="automl metrics.jpg">
+<img src="run details widget.jpg">
 
 ### Best model details
 <img src="best automl details.jpg">
