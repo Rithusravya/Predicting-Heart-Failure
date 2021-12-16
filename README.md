@@ -70,7 +70,7 @@ Accuracy: 0.8696610169491524<br>
 <img src="best automl details.jpg">
 
 ### Registered model details
-<img src="automl parameters.jpg">
+<img src="registered automl details.jpg">
 
 ## Hyperparameter Tuning
 
