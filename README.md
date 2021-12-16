@@ -59,18 +59,18 @@ Accuracy: 0.8696610169491524<br>
 <img src="automl metrics.jpg">
 
 ### AutoML run details
-<img src=".automl details 1.jpg">
-<img src=".automl details 2.jpg">
-<img src=".automl details 3.jpg">
+<img src="automl details 1.jpg">
+<img src="automl details 2.jpg">
+<img src="automl details 3.jpg">
 
 ### Run details widget
-<img src=".run details widget.jpg">
+<img src="run details widget.jpg">
 
 ### Best model details
-<img src=".best automl details.jpg">
+<img src="best automl details.jpg">
 
 ### Registered model details
-<img src=".registered automl details.jpg">
+<img src="registered automl details.jpg">
 
 ## Hyperparameter Tuning
 
@@ -91,13 +91,13 @@ A BanditPolicy was used to improve the computational efficiency, terminating ear
 * The slack factor = 0.1. It specifies the allowed distance from the best performing run. The runs whose best metric is less than (primary metric of best performing run at given interval/(1+slack factor)) will be terminated.
 
 ### Run details widget
-<img src=".run details widget 2.jpg">
+<img src="run details widget 2.jpg">
 
 ### Results
 After running the experiment using hyperdrive and the hyperparameter settings mentioned above, the following results were obtained:
 <br>Best run id: HD_beb86ea9-fc5d-46f4-9a9f-02476dd2a2c8_2<br>
 Accuracy: 0.9<br>
-<img src=".hd metrics.jpg">
+<img src="hd metrics.jpg">
 <br>
 **NOTE**: it may be required to submit the experiment several times in order to get more accurate results, since we are using a random parameter sampler and we may get distinct parameters each time.
 
@@ -105,13 +105,13 @@ Accuracy: 0.9<br>
 For the task of predicting heart failure using a dataset from Kaggle, there is no doubt that the model trained using HyperDrive was more accurate than the model trained using AutoML. On top of that, the execution time was lower using HyperDrive than AutoML, since just one model was evaluated in the first approach compared with the multiple models tried by AutoML. In summary, despite the higher effort required in the former, it appears that HyperDrive could lead to better results whenever the model and the hyperparameter settings are chosen wisely beforehand.
 
 ### Registered model details
-<img src=".registered hd details.jpg">
+<img src="registered hd details.jpg">
 
 ### Experiments 
-<img src=".experiments.jpg">
+<img src="experiments.jpg">
 
 ## Model Deployment
-<img src=".web service.jpg">
+<img src="web service.jpg">
 Once both models were compared, the Hyperdrive model was chosen to be deployed as a web service. The following were the deployment steps:<br>
 
 * A scoring script was defined.
@@ -124,7 +124,7 @@ Once both models were compared, the Hyperdrive model was chosen to be deployed a
 <img src="endpoint.jpg">
 
 * Two responses were obtained as a result of the 2 observations sent to the endpoint. Only the first data point is classified as 1 (death from heart failure).
-<img src=".sample response.jpg">
+<img src="sample response.jpg">
 
 * The logs of the service were obtained.
 <img src="service logs.jpg">
