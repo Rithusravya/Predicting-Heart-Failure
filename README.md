@@ -64,13 +64,13 @@ Accuracy: 0.8696610169491524<br>
 <img src="automl details 3.jpg">
 
 ### Run details widget
-<img src="run details widget.jpg">
+<img src="automl metrics.jpg">
 
 ### Best model details
 <img src="best automl details.jpg">
 
 ### Registered model details
-<img src="registered automl details.jpg">
+<img src="automl parameters.jpg">
 
 ## Hyperparameter Tuning
 
